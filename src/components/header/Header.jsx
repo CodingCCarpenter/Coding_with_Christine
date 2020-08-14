@@ -12,7 +12,7 @@ const Header = (props) => {
                     <NavButton />    
                </li>
                <li>
-
+                    <NavButton />
                </li>
            </ul>
        </div>
