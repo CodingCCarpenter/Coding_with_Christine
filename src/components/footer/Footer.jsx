@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './footer.css'
+
 const Footer = () => {
     return (
-        <ul>
-            <li>Link One</li>
-            <li>Link Two</li>
+        <ul className='footerUList'>
+            <li>Help</li>
+            <li>Member Area</li>
             <li>Contact</li>
         </ul>
     )

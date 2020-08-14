@@ -9,7 +9,7 @@ const Header = (props) => {
 
    return (
        <div>
-           <ul>
+           <ul className='headerUList'>
                <li>
                     <NavButton linkTo='sign up'/>    
                </li>
@@ -17,9 +17,7 @@ const Header = (props) => {
                     <NavButton linkTo='log in'/>
                </li>
                <li>
-               <li>
                     <NavButton linkTo='guest'/>
-               </li>
                </li>
            </ul>
        </div>
