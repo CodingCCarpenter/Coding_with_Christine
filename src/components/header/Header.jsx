@@ -1,7 +1,7 @@
 import React from 'react'
 
 // component imports
-import NavButton from '../buttons/NavButton'
+import NavButton from '../buttons/NavLink'
 
 // style imports
 import "./Header.css"
@@ -9,15 +9,15 @@ const Header = (props) => {
 
    return (
        <div>
-           <ul className='headerUList'>
+           <ul className='nav'>
                <li>
-                    <NavButton linkTo='sign up'/>    
+                    <NavButton link='Browse'/>    
                </li>
                <li>
-                    <NavButton linkTo='log in'/>
+                    <NavButton link='About'/>
                </li>
                <li>
-                    <NavButton linkTo='guest'/>
+                    <NavButton link='Contact'/>
                </li>
            </ul>
        </div>

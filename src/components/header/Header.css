@@ -1,9 +1,12 @@
 Header {
     width: 100vw;
+    padding: 2vw;
 }
 
-.headerUList {
+.nav {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    width: 100%;
 }
