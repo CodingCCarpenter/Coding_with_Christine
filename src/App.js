@@ -1,11 +1,10 @@
 import React from 'react'
+
 import './App.css'
 
-// Component imports
-import Header from './components/header/Header.jsx'
-import Footer from './components/footer/Footer.jsx'
+import CodingWithChristine from './page-components/CodingWithChristine';
 
-function App() {
+function App () {
   return (
     <div className="App">
       <CodingWithChristine />

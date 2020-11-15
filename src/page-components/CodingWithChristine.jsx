@@ -1,6 +1,6 @@
 import React from 'React';
 
-import Header from '../components/header';
+import Header from '../components/header/Header';
 
 const CodingWithChristine = () => {
     <Header />
